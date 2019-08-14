@@ -287,7 +287,7 @@ export class Manager {
         const dataJson = encodeURI(JSON.stringify(data));
         const uri = vscode.Uri.parse(`bajdzis-database-markdown://queryResult?${dataJson}`);
 
-        vscode.commands.executeCommand('markdown.showPreview', uri);
+        vscode.commands.executeCommand('markdown.showPreviewToSide', uri);
         vscode.commands.executeCommand('markdown.preview.refresh', uri);
     }
 

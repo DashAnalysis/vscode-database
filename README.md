@@ -1,7 +1,13 @@
 # VS Code database
 Extension for Visual Studio Code 
 
+Forked from:
 [![Build Status](https://travis-ci.com/Bajdzis/vscode-database.svg?branch=master)](https://travis-ci.com/Bajdzis/vscode-database)
+
+
+Added:
+    * loads results in side panel
+
 
 ## Demo
 
